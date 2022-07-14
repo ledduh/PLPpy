@@ -31,10 +31,9 @@ cost_of_labor = labor * hours_of_labor
 total_cost = cost_of_labor + cost_of_paint
 
 
-print("Paint required is: " + str(no_of_gallons), 
-    "\nHours of labor required: " + str(hours_of_labor),
-    "\nCost of the paint: " + str(cost_of_paint),
-    "\nLabor charges: " + str(cost_of_labor),
-    "\nTotal cost of paint job: ",+total_cost)
-
+print("Paint required is: ", no_of_gallons, 
+    "\nHours of labor required: ", hours_of_labor,
+    "\nCost of the paint: ", cost_of_paint,
+    "\nLabor charges: ", cost_of_labor,
+    "\nTotal cost of paint job: ", total_cost)
 # paint()
